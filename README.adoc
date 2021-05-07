@@ -1,0 +1,5 @@
+= MHipster Webinar Demo Applications
+
+This repository holds the demo applications from the
+"Getting Started with the Micronaut JHipster Blueprint"
+webinar on May 7th, 2021.
