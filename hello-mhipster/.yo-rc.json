@@ -1,0 +1,51 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "hello.mhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "HelloMhipster",
+    "packageName": "hello.mhipster",
+    "packageFolder": "hello/mhipster",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "jwtSecretKey": "M2MxZmY1ZWU3YzRjMmU2NWRjYzU1ZTVjOGU0ZmFiYjk1YWFlN2QwMmE2NmEzNzUwYzJjNzY1YjUyM2RkYjZkZmJhZjJkZWVjODcwZDNiYzBkYTc3Y2UxOTk3ODBhMTJkYTJkMWNiNjNmNGY0NzI3MWMxMGRlYzlmNjdjNWM2ZTE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cyborg",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1620345421003,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "es"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.1"
+      }
+    ],
+    "lastLiquibaseTimestamp": 1620347934000
+  }
+}

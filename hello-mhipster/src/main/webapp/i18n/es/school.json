@@ -1,0 +1,23 @@
+{
+  "helloMhipsterApp": {
+    "school": {
+      "home": {
+        "title": "Schools",
+        "createLabel": "Crear nuevo School",
+        "createOrEditLabel": "Crear o editar School",
+        "notFound": "Ningún Schools encontrado"
+      },
+      "created": "Un nuevo School ha sido creado con el identificador {{ param }}",
+      "updated": "Un School ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un School ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar School {{ id }}?"
+      },
+      "detail": {
+        "title": "School"
+      },
+      "name": "Name",
+      "fish": "Fish"
+    }
+  }
+}

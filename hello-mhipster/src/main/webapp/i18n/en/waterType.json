@@ -1,0 +1,9 @@
+{
+  "helloMhipsterApp": {
+    "WaterType": {
+      "null": "",
+      "FRESH": "FRESH",
+      "SALT": "SALT"
+    }
+  }
+}

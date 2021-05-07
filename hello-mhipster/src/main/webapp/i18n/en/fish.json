@@ -1,0 +1,25 @@
+{
+  "helloMhipsterApp": {
+    "fish": {
+      "home": {
+        "title": "Fish",
+        "createLabel": "Create a new Fish",
+        "createOrEditLabel": "Create or edit a Fish",
+        "notFound": "No Fish found"
+      },
+      "created": "A new Fish is created with identifier {{ param }}",
+      "updated": "A Fish is updated with identifier {{ param }}",
+      "deleted": "A Fish is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Fish {{ id }}?"
+      },
+      "detail": {
+        "title": "Fish"
+      },
+      "name": "Name",
+      "age": "Age",
+      "waterType": "Water Type",
+      "school": "School"
+    }
+  }
+}
