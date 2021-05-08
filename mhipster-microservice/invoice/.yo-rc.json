@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "serverPort": "8082",
+    "serviceDiscoveryType": "consul",
+    "skipUserManagement": true,
+    "baseName": "invoice",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "fr"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.1"
+      }
+    ],
+    "applicationType": "microservice",
+    "packageName": "com.mhipster.demo.invoice",
+    "packageFolder": "com/mhipster/demo/invoice",
+    "jhipsterVersion": "6.10.5",
+    "creationTimestamp": 1620463500682,
+    "clientPackageManager": "npm",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.1"
+      }
+    ]
+  },
+  "entities": ["Invoice", "Shipment"]
+}

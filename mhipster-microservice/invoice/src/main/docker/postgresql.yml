@@ -1,0 +1,12 @@
+version: '2'
+services:
+  invoice-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/invoice/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=invoice
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
