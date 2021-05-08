@@ -1,0 +1,15 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "docker-compose",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": ["store", "crm"],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "consul",
+    "dockerRepositoryName": "atomfrede",
+    "dockerPushCommand": "docker push",
+    "jwtSecretKey": "NDdjM2NkOGYyMGMyM2Y0MmMyY2Q4NWM3Njg5NDk0YzQ4ODdjZmZiMzY3ZWFkYWZiNDExYTRkMTJiMDNlM2E5YzU5ZDk3ZTNiZWI1NTFlMjQxY2EzMzkxNTY0MGIyZTJlMjI2YQ=="
+  }
+}
